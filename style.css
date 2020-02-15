@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+	background-color: #EBEDD5;
+	font-family: 'Work Sans', sans-serif;
+}
+
+ */
+.row {
+	margin: 0 -5px;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container{
+	width: 60%;
+	text-align: center;
+	background-color: #EBEDD5;
+	border-radius: 4px;
+	margin: 0 auto;
+}
+
+h1{
+	padding: 10px 10px;
+	font-size: 60px;
+	color: #EBEDD5;
+	
+}
+h3{
+	color: #EBEDD5;
+	font-size: 20px;
+	font-family: 'Sriracha', cursive;
+}
+
+h4{
+}
+
+
+.divider{
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	height: 5px;
+	background-color: #33658A;
+}
+
+
+.card{
+	width: 100%;
+	height: 400px;
+	margin-top: 30px;
+	border-radius: 4px;
+	box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2); 
+	padding: 16px;
+}
+
+
+.banniere{
+	background-color: #12664F;
+	padding: 60px;
+	border-radius: 4px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+#bannieretop{
+	border-radius: 5px
+}
+#card-maldives{
+	background-image: url("Image/Maldives.jpg");
+	background-position: center;
+}
+#card-seychelles{
+	background-image: url(Image/seychelles.jpg);
+	background-position: center;
+}
+#card-bahamas{
+	background-image: url(Image/bahamas.jpg);
+	background-position: center;
+}
+#card-martinique{
+	background-image: url(Image/martinique.jpg);
+	background-position: center;
+}
+#card-bolivie{
+	background-image: url(Image/bolivie.jpg);
+	background-position: center;
+}
+#card-new-york{
+	background-image: url(Image/empire.jpg);
+	background-position: center;
+
+}
+.card-title{
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	padding-top: 5px;
+	font-size: 30px;
+	
+}
+
+.card-price{
+	font-weight: bold;
+	font-size: 25px;
+	padding-top: 100px;
+	color: white;
+
+}
+
+.card-link{
+	margin-top: 90px;
+	border: hidden;
+	border-radius: 4px;
+}
+.icon{
+	width: 5%;
+	height:auto;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+
+button{
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+ 
